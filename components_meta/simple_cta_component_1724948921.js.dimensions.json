@@ -1,12 +1,14 @@
 {
     "component_name": "simple_cta_component",
-    "id": "simple_cta_component_1724948921.js",
+    "id": "simple_cta_component_1724948921",
     "type": "containerComponent",
-    "metadata": {},
+    "metadata": {
+        "markdownText": "<!-- \nINSTRUCTION: Summary: This component contains a h2 heading title for the CTA, a line of text under it, and a button underneath it. They are all centre aligned.\n-->\n<template>\n    <section id=\"cta-component\" class=\"bg-gray-50 dark:bg-gray-800 flex-1\">\n        <div id=\"cta-inner-container\" class=\"max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6\">\n            <div id=\"cta-content\" class=\"max-w-screen-sm mx-auto text-center\">\n                <div id=\"cta-title-container\" class=\"flex\">\n                    <h2 id=\"cta-title\" class=\"flex-1 mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white\">\n                        Design Your Dream Yacht Today\n                    </h2>\n                </div>\n\n                <div id=\"cta-subtitle-container\" class=\"flex\">\n                    <p id=\"cta-subtitle\" class=\"flex-1 mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg\">\n                        From concept to creation, our app guides you through every step of crafting your perfect luxury vessel\n                    </p>\n                </div>\n\n                <div id=\"cta-button-container\" class=\"flex\">\n                    <a id=\"cta-button\" href=\"#\" class=\"flex-1 text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800\">\n                        Start Building Now\n                    </a>\n                </div>\n            </div>\n        </div>\n    </section>\n</template>\n\n<script>\nexport default {\n    data() {\n        return {\n            expanded: false,\n            tab: null\n        };\n    }\n};\n</script>\n"
+    },
     "w": 12,
     "h": 8,
-    "x": "50",
-    "y": "50",
+    "x": 50,
+    "y": 50,
     "i": "__dropping-elem__",
     "minW": 3,
     "maxW": 12,
@@ -14,5 +16,6 @@
     "moved": false,
     "static": false,
     "isDraggable": true,
-    "isResizable": true
+    "isResizable": true,
+    "name": ""
 }
